@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+   color:white;
+
+}
+
+body{background-color: #251D3A;}
+.navbar1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(54, 33, 33);
+    color:azure;
+    padding: auto;
+    position:sticky;
+    top: 0;
+    
+    
+    
+}
+.navbar1 a:hover{
+    background-color: yellowgreen;
+    
+    
+} 
+.navbar1 a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    padding: 14px 16px;
+    /* float:left; */
+}
+.skills{
+    display: flex;
+    /* justify-content: left; */
+    flex-direction: column;
+    justify-content:center;
+    flex-wrap: wrap;
+    /* border: 10px solid red; */
+    text-align: center;
+    align-items: center;  
+    padding:auto;
+    /* background-image: url(https://image.shutterstock.com/image-photo/software-development-monitor-screen-background-600w-1913897704.jpg); */
+    height:40vh;
+    background-color: #251D3A;
+     
+}
+.skills p { 
+    
+     color: rgb(255, 2, 2);
+ 
+}
+.skills p:hover{
+    color:rgb(255, 185, 55)
+}
+.container{
+    
+    background-color:#251D3A;
+   width: 80%;
+   margin:auto;
+    
+   
+
+}
+.intro{
+    display: flex;
+    justify-content: space-around;
+    font-size:large;
+    background-color: aqua;
+    color: aquamarine;
+    background: url(https://cdn.britannica.com/91/181391-050-1DA18304/cat-toes-paw-number-paws-tiger-tabby.jpg?q=60) ;
+    background-size: cover;
+    background-position: center center ;
+    width: 100%;
+    height:300px;
+    /* margin:auto; */
+}
+.resume{
+    display: flex;
+    background-color:#251D3A;
+   
+}
+.about{
+    width: 20%;
+    background-color:#2A2550;
+    /* border-radius: 50%; */
+}
+.work-exp{
+    width:80%;
+
+}
+.work{
+    text-align: center;
+    padding: 40px;
+    
+    font-size:40px;
+    color:coral;}
+.image-container{
+    
+    border-radius: 50%;
+    background-image: url(https://cdn.britannica.com/91/181391-050-1DA18304/cat-toes-paw-number-paws-tiger-tabby.jpg?q=60);
+    background-size: cover;
+    background-position: center center;
+    height:200px;
+    width:200px;
+    background-color: black;
+    margin: auto;
+    
+
+}
+#bout{
+    font-size:xx-large;
+    color:#b46906;
+    
+}
+.contact{
+    /* border: 5px solid white; */
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-color:#2A2550;
+    align-items: center;
+    text-align: center;
+    border-radius: 6mm;
+    padding-top: 200px;
+    
+}
+.cont{
+    margin:10px
+}
+.cont1{
+    color:white;
+    background-color:#E04D01;
+    font-size: x-large;
+    border-radius:10px;
+}    
+.do{
+    font-size: 40px;
+    color: blanchedalmond;
+}
+.texr{
+    text-align: center;
+    padding: 100px;
+}
+
+
